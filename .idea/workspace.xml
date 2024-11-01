@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79baa8a5-48b7-4149-b6bf-2f364e9fd05c" name="Changes" comment="Some fixes">
+    <list default="true" id="79baa8a5-48b7-4149-b6bf-2f364e9fd05c" name="Changes" comment="Made function views">
+      <change afterPath="$PROJECT_DIR$/petstagram/pets/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram/pets/migrations/0002_rename_pets_pet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram/pets/migrations/0003_alter_pet_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram/photos/validators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1efe7113-c42c-486e-9753-ca239ee0f72b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1efe7113-c42c-486e-9753-ca239ee0f72b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1efe7113-c42c-486e-9753-ca239ee0f72b/storage_v2/_src_/database/petstagram_db.pWcQMw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1efe7113-c42c-486e-9753-ca239ee0f72b/storage_v2/_src_/database/petstagram_db.pWcQMw/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petstagram/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petstagram/pets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/pets/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petstagram/photos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/photos/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petstagram/photos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/photos/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/pets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/pets/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/pets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/pets/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/photos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/photos/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/photos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/photos/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730464895172</updated>
-      <workItem from="1730464902801" duration="10719000" />
+      <workItem from="1730464902801" duration="14334000" />
     </task>
     <task id="LOCAL-00001" summary="Added some files in!">
       <option name="closed" value="true" />
@@ -149,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730473642854</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Made function views">
+      <option name="closed" value="true" />
+      <created>1730475699847</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730475699847</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Made function views">
+      <option name="closed" value="true" />
+      <created>1730475788188</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730475788188</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added some files in!" />
     <MESSAGE value="Some fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some fixes" />
+    <MESSAGE value="Made function views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made function views" />
   </component>
 </project>
