@@ -5,83 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dab6710-e262-468e-97fb-696aa69eddc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/petstagram_two.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/managers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/templatetags/custom_filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/common/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/common/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/common/migrations/0002_comment_user_like_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/common/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/common/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/common/templatetags/url_query_append.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/common/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/pets/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/pets/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/pets/migrations/0002_pet_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/pets/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/pets/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/photos/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/photos/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/photos/migrations/0002_photo_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/photos/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/photos/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/photos/validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram_two/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/404.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/petFunctions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/petProfile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/photoDetails.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/profileFunctions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/are_you_sure_cat.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/axolotl.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/dog-on-bed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/dog-on-road.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/edit-pen-icon-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ezgif.com-gif-maker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/free-30-instagram-stories-icons23_122570.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/icon-remove-22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/logo-with-name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/no_posts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/person.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/zillow-404-page-5f3ed6a6abaa5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/login-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/profile-delete-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/profile-details-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/profile-edit-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/register-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/common/home-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/common/pet-posts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pets/pet-add-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pets/pet-delete-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pets/pet-details-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pets/pet-edit-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/photos/photo-add-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/photos/photo-details-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/photos/photo-edit-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram_two/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram_two/common/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram_two/pets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram_two/pets/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram_two/photos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram_two/photos/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "papazoff06"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/papazoff06/petstagram.git",
+    "accountId": "235d6f7b-9acb-4334-8b90-e8ddba620a7b"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -201,7 +140,7 @@
       <workItem from="1748854817558" duration="12030000" />
       <workItem from="1748941413535" duration="6601000" />
       <workItem from="1749123185645" duration="11000" />
-      <workItem from="1750489411729" duration="21723000" />
+      <workItem from="1750489411729" duration="23804000" />
     </task>
     <servers />
   </component>
