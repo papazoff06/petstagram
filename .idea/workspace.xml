@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9dab6710-e262-468e-97fb-696aa69eddc1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/petstagram_two.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/templatetags/custom_filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/common/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/common/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/common/migrations/0002_comment_user_like_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/common/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/common/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/common/templatetags/url_query_append.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/common/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/pets/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/pets/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/pets/migrations/0002_pet_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/pets/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/pets/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/photos/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/photos/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/photos/migrations/0002_photo_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/photos/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/photos/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/photos/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/404.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/petFunctions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/petProfile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/photoDetails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/profileFunctions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/are_you_sure_cat.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/axolotl.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/dog-on-bed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/dog-on-road.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/edit-pen-icon-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/ezgif.com-gif-maker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/free-30-instagram-stories-icons23_122570.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/icon-remove-22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/logo-with-name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/no_posts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/zillow-404-page-5f3ed6a6abaa5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/login-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/profile-delete-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/profile-details-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/profile-edit-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/register-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/common/home-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/common/pet-posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pets/pet-add-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pets/pet-delete-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pets/pet-details-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pets/pet-edit-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/photos/photo-add-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/photos/photo-details-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/photos/photo-edit-page.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2xUln6lguVBE8ysTy0W69And3Ud" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.petstagram_two.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PYTHON_WEB_SECOND_TRY/petstagram_two/templates/pets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PYTHON_WEB_SECOND_TRY\petstagram_two\templates\pets" />
+      <recent name="D:\PYTHON_WEB_SECOND_TRY\petstagram_two\static" />
+      <recent name="D:\PYTHON_WEB_SECOND_TRY\petstagram_two\templates\common" />
+      <recent name="D:\PYTHON_WEB_SECOND_TRY\petstagram_two\templates" />
+      <recent name="D:\PYTHON_WEB_SECOND_TRY\petstagram_two\photos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PYTHON_WEB_SECOND_TRY\petstagram_two\templates" />
+      <recent name="D:\PYTHON_WEB_SECOND_TRY\petstagram_two\petstagram_two" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="petstagram_two" type="Python.DjangoServer" factoryName="Django server">
+      <module name="petstagram_two" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="petstagram_two.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dab6710-e262-468e-97fb-696aa69eddc1" name="Changes" comment="" />
+      <created>1748000696874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748000696874</updated>
+      <workItem from="1748000725639" duration="2656000" />
+      <workItem from="1748157647783" duration="17790000" />
+      <workItem from="1748241251092" duration="25874000" />
+      <workItem from="1748333407228" duration="8511000" />
+      <workItem from="1748505709427" duration="15840000" />
+      <workItem from="1748605190973" duration="596000" />
+      <workItem from="1748715487949" duration="60000" />
+      <workItem from="1748854817558" duration="12030000" />
+      <workItem from="1748941413535" duration="6601000" />
+      <workItem from="1749123185645" duration="11000" />
+      <workItem from="1750489411729" duration="21723000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
