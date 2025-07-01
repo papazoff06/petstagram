@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dab6710-e262-468e-97fb-696aa69eddc1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ce47d09-a9ac-425c-a383-04dc75fe82ea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ce47d09-a9ac-425c-a383-04dc75fe82ea/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ce47d09-a9ac-425c-a383-04dc75fe82ea/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram_two/accounts/signals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petstagram_two/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram_two/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petstagram_two/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram_two/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram_two/accounts/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram_two/accounts/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/petstagram_two/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram_two/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petstagram_two/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram_two/common/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petstagram_two/pets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram_two/pets/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/profile-delete-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile-delete-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/accounts/profile-details-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile-details-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common/pet-posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/pet-posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pets/pet-details-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pets/pet-details-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +147,7 @@
       <workItem from="1750767921623" duration="542000" />
       <workItem from="1751284452518" duration="10793000" />
       <workItem from="1751305872253" duration="4216000" />
-      <workItem from="1751361921798" duration="3223000" />
+      <workItem from="1751361921798" duration="8706000" />
     </task>
     <servers />
   </component>

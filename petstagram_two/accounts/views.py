@@ -8,6 +8,7 @@ from django.views.generic import CreateView, UpdateView, DetailView, DeleteView
 
 from petstagram_two.accounts.forms import AppUserCreationForm, AppUserLoginForm, ProfileEditForm
 from petstagram_two.accounts.models import Profile
+from petstagram_two.photos.models import Photo
 
 UserModel = get_user_model()
 # Create your views here.
@@ -23,10 +24,10 @@ class AppUserLoginView(LoginView):
     form_class = AppUserLoginForm
     template_name = 'accounts/login-page.html'
 
-    def form_valid(self, form):
-        super().form_valid(form)
-        profile_instance, _ = Profile.objects.get_or_create(user=self.request.user)
-        return HttpResponseRedirect(self.get_success_url())
+    # def form_valid(self, form):
+    #     super().form_valid(form)
+    #     profile_instance, _ = Profile.objects.get_or_create(user=self.request.user)
+    #     return HttpResponseRedirect(self.get_success_url())
 
 class AppUserLogoutView(LogoutView):
     pass
@@ -37,21 +38,9 @@ class AppUserDetailsView(DetailView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        likes_count = sum(p.like_set.count() for p in self.object.photo_set.all())
-        profile = self.request.user.profile
-        pets = self.object.pet_set.all()
-        pets_count = pets.count()
-        all_user_photos = self.object.photo_set.all()
-        all_user_photos_count = self.object.photo_set.all().count()
 
-        context['likes_count'] = likes_count
-        context['all_user_photos_count'] = all_user_photos_count
-        context['profile'] = profile
-        context['profile_name'] = profile.get_profile_name()
-        context['pets'] = pets
-        context['pets_count'] = pets_count
-        context['all_user_photos'] = all_user_photos
-
+        context['total_likes_count'] = sum(p.like_set.count() for p in self.object.photo_set.all())
+        context['user_photos'] = Photo.objects.filter(user_id=self.object.pk).order_by('-date_of_publication')
         return context
 
 
@@ -81,4 +70,4 @@ class AppUserDeleteView(DeleteView):
     def delete(self, request, *args, **kwargs):
         user = self.get_object()
         user.delete()
-        return redirect(self.get_success_url())
+        return redirect(self.get)

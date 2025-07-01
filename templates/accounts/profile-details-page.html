@@ -3,7 +3,7 @@
     <!-- End Header Section with Navigation Bar -->
 
     <!-- Starts Main Section -->
-    <main>
+<main>
       <!-- Start Profile Details Section -->
       <div class="profile">
         <!-- Start Profile Personal Data Section -->
@@ -11,32 +11,26 @@
           <div class="profile_img">
             <div class="image">
               <!-- Profile Image -->
-                {% if not profile.profile_picture %}
               <img src="/static/images/person.png" alt="img8" />
-                    {% else %}
-                    <img src="{{ profile.profile_picture }}" alt="img8" />
-                {% endif %}
             </div>
           </div>
           <div class="personal">
             <div class="edit">
               <!-- User Username -->
-              <p>{{ profile.user.email }}</p>
+              <p>d_kalaydzhiev</p>
 
               <!-- IF the viewer is the owner of the profile -->
               <!-- Link to Edit Profile Page -->
-                {% if request.user.pk == object.pk %}
-              <a href="{% url 'profile-edit' request.user.pk %}">
+              <a href="#">
                 <img
                   class="edit-img"
                   src="/static/images/edit-pen-icon-6.jpg"
                   alt="edit button"
                 />
               </a>
-                
 
               <!-- Link to Delete Profile Page -->
-              <a href="{% url 'profile-delete' request.user.pk%}">
+              <a href="">
                 <img
                   class="bin-img"
                   src="/static/images/icon-remove-22.jpg"
@@ -44,27 +38,25 @@
                 />
               </a>
               <!-- End IF the viewer is the owner of the profile -->
-                    {% else %}
-                {% endif %}
             </div>
             <div class="data">
               <!-- Total Number of Photos by the User -->
-              <span>{{ all_user_photos_count }}</span>
+              <span>4</span>
               <p>photos</p>
 
               <!-- Total Number of Pets owned by the User -->
-              <span>{{ pets_count }}</span>
+              <span>7</span>
               <p>pets</p>
 
               <!-- Total Number of Likes for the User -->
-              <span>{{ likes_count }}</span>
+              <span>436</span>
               <p>likes</p>
             </div>
             <!-- User First and Last Name IF Added -->
-            <h3 class="names">{{ profile_name }}</h3>
+            <h3 class="names">Diyan Kalaydziev</h3>
 
             <!-- User Email Address -->
-            <p class="email">{{ profile.user.email }}</p>
+            <p class="email">d.denov@gmail.com</p>
 
             <!-- User Gender IF Added -->
             <p class="gender">Male</p>
@@ -73,13 +65,13 @@
         <!-- End Profile Personal Data Section -->
 
         <!-- Start Pets Data Section -->
-      {% for pet in pets %}
+      {% for pet in user.pet_set.all %}
           
         <div class="pets">
           <div class="statuses">
             <!-- Start 1st Pet Details Page -->
             <!-- Link to First Pet Details Page -->
-            <a href="#">
+            <a href="{% url 'pet-details' pet.user.profile.get_profile_name pet.slug %}">
               <div class="head-pet">
                 <div class="status">
                   <div class="image">
@@ -91,7 +83,7 @@
                   </div>
                 </div>
                 <!-- Pet Name -->
-                <p>Sasho</p>
+                <p>{{ pet.name }}</p>
               </div>
             </a>
             <!-- End 1st Pet Details Page -->
@@ -102,15 +94,17 @@
         <!-- End Pets Data Section -->
 
         <!-- Start Last Uploaded Photos Section -->
+      {% for photo in user_photos %}
         <div class="pet-photos">
           <!-- Link to Last Uploaded Pet Photo -->
-          <a href="#">
+          <a href="{% url 'photo-details' photo.id %}">
             <!-- Pet Photo -->
             <img
-              src="https://i.natgeofe.com/n/de94c416-6d23-45f5-9708-e8d56289268e/naturepl_01132178.jpg?w=636&h=631"
+              src="{{ photo.photo.url }}"
               alt="pet img"
             />
           </a>
+            {% endfor %}
 
           <!-- Link to Uploaded Pet Photo -->
           <a href="#">
