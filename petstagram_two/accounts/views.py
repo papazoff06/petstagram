@@ -2,9 +2,9 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.views import LoginView, LogoutView
 from django.http import HttpResponseRedirect
 
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
-from django.views.generic import CreateView, UpdateView
+from django.views.generic import CreateView, UpdateView, DetailView, DeleteView
 
 from petstagram_two.accounts.forms import AppUserCreationForm, AppUserLoginForm, ProfileEditForm
 from petstagram_two.accounts.models import Profile
@@ -31,8 +31,29 @@ class AppUserLoginView(LoginView):
 class AppUserLogoutView(LogoutView):
     pass
 
-def details_page(request, pk):
-    return render(request, 'accounts/profile-details-page.html')
+class AppUserDetailsView(DetailView):
+    model = UserModel
+    template_name = 'accounts/profile-details-page.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        likes_count = sum(p.like_set.count() for p in self.object.photo_set.all())
+        profile = self.request.user.profile
+        pets = self.object.pet_set.all()
+        pets_count = pets.count()
+        all_user_photos = self.object.photo_set.all()
+        all_user_photos_count = self.object.photo_set.all().count()
+
+        context['likes_count'] = likes_count
+        context['all_user_photos_count'] = all_user_photos_count
+        context['profile'] = profile
+        context['profile_name'] = profile.get_profile_name()
+        context['pets'] = pets
+        context['pets_count'] = pets_count
+        context['all_user_photos'] = all_user_photos
+
+        return context
+
 
 class ProfileEditView(UpdateView):
     model = UserModel
@@ -43,8 +64,21 @@ class ProfileEditView(UpdateView):
         return self.request.user.profile
 
     def get_success_url(self):
-        return reverse_lazy('profile-details', kwargs={'pk': self.object.pk})
+        if self.request.user.is_authenticated:
+            return reverse_lazy('profile-details', kwargs={'pk': self.object.pk})
+        return reverse_lazy('login')
 
 
-def delete_page(request, pk):
-    return render(request, 'accounts/profile-delete-page.html')
+# def delete_page(request, pk):
+#     return render(request, 'accounts/profile-delete-page.html')
+class AppUserDeleteView(DeleteView):
+    model = UserModel
+    template_name = 'accounts/profile-delete-page.html'
+    success_url = reverse_lazy('home')
+    def get_object(self, queryset=None):
+        return self.request.user
+
+    def delete(self, request, *args, **kwargs):
+        user = self.get_object()
+        user.delete()
+        return redirect(self.get_success_url())

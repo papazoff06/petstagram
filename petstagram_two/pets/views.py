@@ -42,6 +42,8 @@ class PetDetailsPage(DetailView):
         context['all_photos'] = self.object.photo_set.all()
         context['comment_form'] = CommentForm()
         return context
+
+
 # def pet_details_page(request, username, pet_slug):
 #     pet = Pet.objects.get(slug=pet_slug)
 #     all_photos = pet.photo_set.all()

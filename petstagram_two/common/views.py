@@ -72,7 +72,7 @@ def add_comment(request, photo_id):
         if form.is_valid():
             comment = form.save(commit=False)
             comment.to_photo = photo
-            comment.user = request.user
+            comment.user = request.userand
             comment.save()
         return redirect(request.META['HTTP_REFERER'] + f'#{photo_id}')
 
