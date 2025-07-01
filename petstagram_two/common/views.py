@@ -1,4 +1,4 @@
-from gc import get_objects
+
 
 from django.shortcuts import render, redirect, resolve_url
 from django.views.generic import TemplateView, FormView, ListView
