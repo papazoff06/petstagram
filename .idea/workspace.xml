@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dab6710-e262-468e-97fb-696aa69eddc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petstagram_two/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram_two/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +215,7 @@
       <workItem from="1751456203071" duration="41000" />
       <workItem from="1751624295192" duration="697000" />
       <workItem from="1751653102618" duration="1068000" />
-      <workItem from="1751704374919" duration="3375000" />
+      <workItem from="1751704374919" duration="4431000" />
     </task>
     <servers />
   </component>
